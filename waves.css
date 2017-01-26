@@ -1,0 +1,66 @@
+		/*format textarea box*/
+			textarea {
+				display: block;
+				border:0;
+				margin-left: auto;
+				margin-right: auto;
+				width: 100%;
+				height: auto;
+				}
+		/* header font*/
+			h1 {
+				color:#3399ff;
+				}
+
+		/*format appearance of buttons*/
+			.button {
+				background-color: #3399ff;
+				border-width:3px;
+				border-radius:5px;
+				border-color:#3399ff;
+				color: white;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				text-align:center;
+				}
+
+		/*format disabled buttons*/
+			input:disabled{
+				background-color:#a6a6a6;
+				border-color:#000000;
+				}
+		/*format page*/
+			#wrapper {
+				max-width: 900px;
+				margin: 0 auto;
+				}
+
+		/*Main text area & list*/
+			#main {
+				max-width: 75%;)
+				}
+			#bag {
+				max-width: 25%;
+				}
+		/*format buttons location*/
+			#btns {
+				text-align: center;
+				margin: auto;
+				}
+
+		/*navigation error message format*/
+			#navError{
+				color: red;
+				font-style: italic;
+				}
+
+		/*format score box*/
+			#score{
+				color: #3399ff;
+				}
+
+		/*map formatting*/
+			#map{
+				width:75%;
+			}

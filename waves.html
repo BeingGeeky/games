@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <!--Cassie Schaaf
+   Introduction to Programming
+
+   -->
+
+      <title>
+         Island of Horrors
+      </title>
+	  <link type = "text/css" rel = "stylesheet" href = "waves.css">
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	  <script type="text/javascript" src="waves.js"></script>
+	</head>
+   <body onload="init();">
+		<!--Display title of game on game page-->
+		<h1>Island of Horrors!</h1>
+
+
+<div>
+Collect all the clues to get off the island! Before it's too late!
+</div>
+
+<div id="score"> 		<!--score display area-->
+	<p id="scoreSpot" class="scoreSpot">Total Points: </p>
+</div>					<!--score display area-->
+
+<div>
+		<textarea id="taMain" rows="15" cols="100"></textarea><br>
+		<input type="button" id="btnW" value="West" onclick="btnWest_click();">
+		<input type="button" id="btnE" value="East" onclick="btnEast_click();">
+		<input type="button" id="btnN" value="North" onclick="btnNorth_click();">
+		<input type="button" id="btnS" value="South" onclick="btnSouth_click();">
+		<input type="button" id="btnTake" value="Take Item" onclick="btnTake();">
+		<input type="button" id="btnInventory" value="Item inventory" onclick="btnInventory();">
+<!--navigation text input-->
+<input type="text" id="box">
+<input type="button" id="btnGo" class="button" onclick="btnGo();" value="Go">
+<p>Would you like to go N, S, E, or W? Would you like to TAKE that item?</p>
+<p id="navError"></p>
+</div><!--navigation text input-->
+
+<div> 					<!--help display-->
+    <input type="button" class = "button" value="Help"  onclick="helpMe();"/>
+<!--Put a mailto: link on the game page -->
+		<p>For more information, contact me at <a href = "mailto:craychap@gmail.com">craychap@gmail.com</a></p>
+</div>
+
+	</body>
+</html>
